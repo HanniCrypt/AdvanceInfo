@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #63738a;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    /* background-color: red; */
+}
+
+h3 {
+    text-align: start;
+    margin-top: 50px;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40px;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+
+    /* background-color: #84b6ce; */
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+    /* background-color: aqua; */
+}
+
+tr {
+    padding: 10px; 
+    
+    /* background-color: red; */
+}
+
+
+th {
+    padding: 15px;
+    color: white;
+    border: none;
+
+    background-color: #04354d;
+}
+
+.o {
+    border-top-left-radius: 10px;
+}
+
+.w {
+    border-top-right-radius: 10px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    
+    /* background-color: aqua; */
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e5e5;
+}
+
+.act{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    /* background-color: red; */
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: red;
+
+}
+
+.btn2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: blue;
+
+}
+
