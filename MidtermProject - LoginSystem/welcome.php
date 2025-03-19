@@ -73,7 +73,7 @@
                                     <td class='act'>
                                         <form method='POST'>
                                             <input type='hidden' name='id' value='{$row['id']}'>
-                                            <button class='btn1' type='submit' name='delete'><img src='./img/delete.png' alt='' title='Delete'></button>
+                                            <button class='btn1' onclick='return confirm(\"Are you sure you want to delete this employee?\")' type='submit' name='delete'><img src='./img/delete.png' alt='' title='Delete'></button>
                                         </form>
 
                                         <form method='POST'>
